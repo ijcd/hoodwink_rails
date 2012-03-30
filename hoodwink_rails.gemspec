@@ -7,11 +7,11 @@ require "hoodwink_rails/version"
 Gem::Specification.new do |s|
   s.name        = "hoodwink_rails"
   s.version     = HoodwinkRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of HoodwinkRails."
-  s.description = "TODO: Description of HoodwinkRails."
+  s.authors     = ["Ian Duggan"]
+  s.email       = ["ian@ianduggan.net"]
+  s.homepage    = "http://github.com/ijcd/hoodwink_rails"
+  s.summary     = "Rails adapter for hoodwink web mocking gem"
+  s.description = "Rails adapter for hoodwink web mocking gem"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
